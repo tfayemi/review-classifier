@@ -1,0 +1,44 @@
+{
+  "name": "Music Reviews Analysis Prototype",
+  "task": "helpfulness classification",
+  "stand_in_source": "Amazon-style reviews",
+  "future_source": "informal music comments and reviews",
+  "models": [
+    {
+      "id": "conventional",
+      "full_project": "scikit-learn pipeline with GridSearchCV",
+      "fixture": "informative-term scorer"
+    },
+    {
+      "id": "sequence",
+      "full_project": "GloVe embeddings with an LSTM",
+      "fixture": "length-and-vocabulary proxy"
+    }
+  ],
+  "examples": [
+    {
+      "text": "Wide soundstage and clear separation make the vocals easy to follow.",
+      "label": "helpful"
+    },
+    {
+      "text": "Five stars, love it.",
+      "label": "not_helpful"
+    },
+    {
+      "text": "The battery lasted 31 hours in my test before it needed charging.",
+      "label": "helpful"
+    },
+    {
+      "text": "Bad. Do not buy.",
+      "label": "not_helpful"
+    },
+    {
+      "text": "The comfortable fit stayed secure for three hours without painful clamping.",
+      "label": "helpful"
+    },
+    {
+      "text": "I really wanted to love these and kept trying all week, but they are not for me.",
+      "label": "not_helpful"
+    }
+  ]
+}
