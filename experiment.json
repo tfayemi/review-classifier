@@ -1,5 +1,5 @@
 {
-  "name": "Music Reviews Analysis Prototype",
+  "name": "Music Review Helpfulness Classifier",
   "task": "helpfulness classification",
   "stand_in_source": "Amazon-style reviews",
   "future_source": "informal music comments and reviews",
@@ -7,12 +7,12 @@
     {
       "id": "conventional",
       "full_project": "scikit-learn pipeline with GridSearchCV",
-      "fixture": "informative-term scorer"
+      "implementation": "informative-term scorer"
     },
     {
       "id": "sequence",
       "full_project": "GloVe embeddings with an LSTM",
-      "fixture": "length-and-vocabulary proxy"
+      "implementation": "length-and-vocabulary scorer"
     }
   ],
   "examples": [

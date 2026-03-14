@@ -1,4 +1,4 @@
-"""Run a tiny, deterministic version of the original two-model experiment."""
+"""Run the review-helpfulness model comparison."""
 
 from __future__ import annotations
 
@@ -41,12 +41,12 @@ def sequence_proxy(text: str) -> str:
 
 
 def load_experiment(path: Path = EXPERIMENT_PATH) -> dict:
-    """Load the small declarative experiment fixture."""
+    """Load the declarative experiment configuration and examples."""
     return json.loads(path.read_text(encoding="utf-8"))
 
 
 def accuracy(examples: list[dict[str, str]], predict: Callable[[str], str]) -> float:
-    """Calculate accuracy for a predictor over the fixture examples."""
+    """Calculate accuracy for a predictor over the review examples."""
     correct = sum(predict(example["text"]) == example["label"] for example in examples)
     return correct / len(examples)
 
@@ -67,7 +67,7 @@ def compare(experiment: dict) -> list[tuple[str, float]]:
 def main() -> None:
     experiment = load_experiment()
     print(experiment["name"])
-    print(f"Fixture examples: {len(experiment['examples'])}\n")
+    print(f"Review examples: {len(experiment['examples'])}\n")
     print("path          accuracy")
     print("------------  --------")
     for model_id, score in compare(experiment):

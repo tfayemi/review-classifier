@@ -1,11 +1,11 @@
-"""Fast checks for the portfolio lab fixture."""
+"""Regression checks for the review-helpfulness experiment."""
 
 import unittest
 
 import lab
 
 
-class LabFixtureTests(unittest.TestCase):
+class ReviewExperimentTests(unittest.TestCase):
     def setUp(self) -> None:
         self.experiment = lab.load_experiment()
 
@@ -13,7 +13,7 @@ class LabFixtureTests(unittest.TestCase):
         model_ids = [model["id"] for model in self.experiment["models"]]
         self.assertEqual(model_ids, ["conventional", "sequence"])
 
-    def test_fixture_is_deliberately_small_and_balanced(self) -> None:
+    def test_dataset_is_balanced(self) -> None:
         examples = self.experiment["examples"]
         labels = [example["label"] for example in examples]
         self.assertEqual(len(examples), 6)
