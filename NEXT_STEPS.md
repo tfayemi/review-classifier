@@ -1,3 +1,4 @@
 # Next-stage notes
 
 - Expanded the music-review transfer vocabulary.
+- Added short expert comments to the evaluation plan.
