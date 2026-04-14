@@ -6,3 +6,4 @@
 - Balanced the first evaluation set across both classes.
 - Added a concise high-information audio review.
 - Added a short positive reaction as a negative example.
+- Added a measurable battery-life observation.
