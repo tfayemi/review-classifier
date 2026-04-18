@@ -7,3 +7,4 @@
 - Added a concise high-information audio review.
 - Added a short positive reaction as a negative example.
 - Added a measurable battery-life observation.
+- Added a terse negative reaction for contrast.
