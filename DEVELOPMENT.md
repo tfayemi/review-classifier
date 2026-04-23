@@ -8,3 +8,4 @@
 - Added a short positive reaction as a negative example.
 - Added a measurable battery-life observation.
 - Added a terse negative reaction for contrast.
+- Added a comfort review with time and fit details.
