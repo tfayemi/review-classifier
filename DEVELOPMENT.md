@@ -12,3 +12,4 @@
 - Added a long subjective reaction to challenge structural rules.
 - Standardized lowercase alphanumeric tokenization.
 - Confirmed punctuation does not affect predictions.
+- Preserved numeric tokens for measurable review details.
