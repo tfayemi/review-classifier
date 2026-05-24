@@ -15,3 +15,4 @@
 - Preserved numeric tokens for measurable review details.
 - Identified an initial informative audio vocabulary.
 - Added battery and usage-duration evidence terms.
+- Added fit and comfort evidence terms.
