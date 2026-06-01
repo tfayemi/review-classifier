@@ -17,3 +17,4 @@
 - Added battery and usage-duration evidence terms.
 - Added fit and comfort evidence terms.
 - Set the conventional evidence threshold.
+- Added empty-text handling to the sequence path.
