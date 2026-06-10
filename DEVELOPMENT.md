@@ -19,3 +19,4 @@
 - Set the conventional evidence threshold.
 - Added empty-text handling to the sequence path.
 - Established a minimum detail length.
+- Added vocabulary diversity as a second sequence cue.
