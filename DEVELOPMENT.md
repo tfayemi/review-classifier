@@ -22,3 +22,4 @@
 - Added vocabulary diversity as a second sequence cue.
 - Centralized the helpfulness labels.
 - Added a project-relative experiment loader.
+- Added a reusable accuracy calculation.
