@@ -24,3 +24,4 @@
 - Added a project-relative experiment loader.
 - Added a reusable accuracy calculation.
 - Registered both predictors by stable model ID.
+- Preserved manifest order in result reporting.
