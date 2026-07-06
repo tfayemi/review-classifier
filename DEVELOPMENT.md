@@ -25,3 +25,4 @@
 - Added a reusable accuracy calculation.
 - Registered both predictors by stable model ID.
 - Preserved manifest order in result reporting.
+- Added the command-line project heading.
