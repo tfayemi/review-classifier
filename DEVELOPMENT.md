@@ -27,3 +27,4 @@
 - Preserved manifest order in result reporting.
 - Added the command-line project heading.
 - Added the evaluated-example count.
+- Added aligned model comparison output.
