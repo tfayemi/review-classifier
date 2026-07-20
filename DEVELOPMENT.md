@@ -28,3 +28,4 @@
 - Added the command-line project heading.
 - Added the evaluated-example count.
 - Added aligned model comparison output.
+- Added a contract test for both model paths.
