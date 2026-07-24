@@ -29,3 +29,4 @@
 - Added the evaluated-example count.
 - Added aligned model comparison output.
 - Added a contract test for both model paths.
+- Added a balance check for the labeled sample.
