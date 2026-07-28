@@ -30,3 +30,4 @@
 - Added aligned model comparison output.
 - Added a contract test for both model paths.
 - Added a balance check for the labeled sample.
+- Added deterministic expected-score coverage.
