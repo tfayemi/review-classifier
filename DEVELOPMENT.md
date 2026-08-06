@@ -32,3 +32,4 @@
 - Added a balance check for the labeled sample.
 - Added deterministic expected-score coverage.
 - Documented the music-review transfer objective.
+- Documented both classification approaches.
