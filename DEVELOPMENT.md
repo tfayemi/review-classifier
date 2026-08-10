@@ -33,3 +33,4 @@
 - Added deterministic expected-score coverage.
 - Documented the music-review transfer objective.
 - Documented both classification approaches.
+- Recorded the initial comparison results.
