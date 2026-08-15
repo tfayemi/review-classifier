@@ -34,3 +34,4 @@
 - Documented the music-review transfer objective.
 - Documented both classification approaches.
 - Recorded the initial comparison results.
+- Added a zero-dependency run path.
