@@ -35,3 +35,4 @@
 - Documented both classification approaches.
 - Recorded the initial comparison results.
 - Added a zero-dependency run path.
+- Added the regression test command.
