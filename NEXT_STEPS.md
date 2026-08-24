@@ -5,3 +5,4 @@
 - Identified sarcasm as a dedicated error-analysis category.
 - Added precision, recall, and F1 to the planned metrics.
 - Defined a calibration review for confidence scores.
+- Prepared the comparison for a larger labeled corpus.
