@@ -4,3 +4,4 @@
 - Added ambiguous short-form examples to the review plan.
 - Defined an error group for mixed subjective and objective language.
 - Added threshold sensitivity to the evaluation checklist.
+- Recorded a cross-domain validation step.
