@@ -39,3 +39,4 @@
 - Documented the repository structure.
 - Reviewed examples for clear label boundaries.
 - Tightened function documentation and naming.
+- Ran the complete regression suite.
