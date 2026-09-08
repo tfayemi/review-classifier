@@ -5,3 +5,4 @@
 - Defined an error group for mixed subjective and objective language.
 - Added threshold sensitivity to the evaluation checklist.
 - Recorded a cross-domain validation step.
+- Closed the quarter with an expanded model comparison plan.
